@@ -41,5 +41,5 @@ while n != 0:
     l = n % 10      # give last digit
     n //= 10        # remove last digit
     b = b*10 + l    # shift value to left and add the last digit  # result = (result * 10) + initial_number
-    
+
 print (b)
