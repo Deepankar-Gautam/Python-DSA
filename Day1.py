@@ -18,20 +18,28 @@ note: "Process" word only applicable for the programs running in memory.
 # Extration of last digit 
 #=========================================================
 
-# n = int (input ("Enter your number : "))
-# num = n
+n = int (input ("Enter your number : "))
+num = n
 
-# def last_digit(num):
-#     while num != 0:
-#         l = num % 10     # give last digit
-#         num = num // 10  # remove last digit from number
-#         print (l) 
+def last_digit(num):
+    while num != 0:
+        l = num % 10     # give last digit
+        num = num // 10  # remove last digit from number
+        print (l) 
 
-# last_digit(n)
-# print (n)
+last_digit(n)
+print (n)
 
+#=========================================================
+# Reverse a digit
+#=========================================================
 
+n = int (input ("Enter a number : "))
+b = 0
 
-
-
-
+while n != 0:
+    l = n % 10      # give last digit
+    n //= 10        # remove last digit
+    b = b*10 + l    # shift value to left and add the last digit  # result = (result * 10) + initial_number
+    
+print (b)
