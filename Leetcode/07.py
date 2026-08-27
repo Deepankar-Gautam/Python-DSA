@@ -1,19 +1,17 @@
 class Solution:
     def reverse(self, x: int) -> int: 
-        digit = x
-        num = 0
-        status = True
+        d = x
+        n = 0
+        s = True
         if x < 0:
-                digit = digit * (-1)
-                status = False
-        while digit > 0:
-            last = digit % 10
-            digit = digit // 10
-            num = num * 10 + last
-        if status == False:
-            num = num * (-1)
-        
-        if (num > 2 ** (31) - 1) or (num < (-1)*(2) ** (31)):
+                d = d * -1
+                s = False
+        while d > 0:
+            l = d % 10
+            d = d // 10
+            n = n * 10 + l
+        if s == False:
+            n = n * -1     
+        if n > 2 ** 31 - 1 or n < -1*2 ** 31:
             return 0
-
-        return num
+        return n
