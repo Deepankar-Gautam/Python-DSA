@@ -6,3 +6,4 @@
 # 1805. Number of Different Integers in a String  :  01:14:56
 # 2160. Minimum Sum of Four Digit Number After Splitting Digits  :  00:21:34
 # 2520. Count the Digits That Divide a Number  :  00:16:47
+# 2729. Check if The Number is Fascinating  :  00:20:25
