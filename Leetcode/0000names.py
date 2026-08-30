@@ -5,3 +5,4 @@
 # 1342. Number of Steps to Reduce a Number to Zero  :  00:05:13
 # 1805. Number of Different Integers in a String  :  01:14:56
 # 2160. Minimum Sum of Four Digit Number After Splitting Digits  :  00:21:34
+# 2520. Count the Digits That Divide a Number  :  00:16:47
