@@ -1,4 +1,4 @@
-# 0007. Reverse Integer  :  00:5:36
+# 0007. Reverse Integer  :  00:15:36
 # 0009. Palindrome number  :  00:20:45
 # 0202. Happy Number  :  2:37:12
 # 0258. Add Digits  :  00:13:27
